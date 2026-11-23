@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>TAOM — Milliy restoran</title>
+    <link rel="icon" type="image/x-icon" href="Graphicloads-Colorful-Long-Shadow-Restaurant.256 (1).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,900&family=Manrope:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="intro" aria-label="TAOM">
+        <div class="word"><span>T</span><span>A</span><span>O</span><span>M</span><span>.</span><span>U</span><span>Z</span></div>
+        <p>Milliy taom. Milliy mehr.</p><i></i>
+    </div>
+    <div id="bar"></div>
+    <header><a class="logo" href="#">TAOM<b>.UZ</b></a>
+        <nav><a href="#menyu">Menyu</a><a href="#oshpaz">Oshpaz</a><a href="#zallar">Zal</a><a
+                href="#fikr">Fikrlar</a><a href="#aloqa">Aloqa</a></nav>
+        <div class="hbtns"><button id="theme" aria-label="Rejim">☾</button><button id="cartBtn">Savat <em
+                    id="count">0</em></button></div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-t">
+            <p class="tag">Uychi · Milliy oshxona · 2024-yildan</p>
+            <h1>Haqiqiy<br><span>o'zbek taomi</span><br>shu yerda.</h1>
+            <p>Qozonda pishgan palov, tandirdan chiqqan somsa va cho'g'da qovurilgan shashlik — barchasi har kuni sovg'a
+                sifatida tayyorlanadi.</p>
+            <div class="hrow"><a class="btn" href="#menyu">Menyuni ko'rish</a><a class="ghost" href="#aloqa">Stol bron
+                    qilish</a></div>
+            <div class="deal"><small>Bugungi chegirma tugashiga:</small><b id="timer">00:00:00</b></div>
+        </div>
+        <div class="hero-i">
+            <div class="ring"></div><img id="slide" src="img/hero.jpg" alt="Palov">
+            <div class="badge"><b>-20%</b><small>har kuni 18:00 gacha</small></div>
+        </div>
+    </section>
+
+    <div class="ticker">
+        <div><span>Palov · Shashlik · Lag'mon · Manti · Somsa · Sho'rva · Qozon kabob · Chuchvara · Milliy shirinliklar
+                · Ko'k choy ·&nbsp;</span><span>Palov · Shashlik · Lag'mon · Manti · Somsa · Sho'rva · Qozon kabob ·
+                Chuchvara · Milliy shirinliklar · Ko'k choy ·&nbsp;</span></div>
+    </div>
+
+    <section id="menyu" class="r">
+        <div class="head">
+            <div>
+                <p class="tag">Bizning menyu</p>
+                <h2>Taomlar</h2>
+            </div>
+            <div id="filters"></div>
+        </div>
+        <div id="grid"></div>
+        <p id="found"></p>
+    </section>
+
+    <section id="oshpaz" class="chef r"><img src="img/chef.jpg" alt="Bosh oshpaz">
+        <div>
+            <p class="tag">Bosh oshpaz</p>
+            <h2>Oshpaz Olim aka</h2>
+            <p>25 yillik tajriba. Samarqand palovi maktabining vakili, 3 karra "Oltin qozon" tanlovi g'olibi.</p>
+            <ul>
+                <li><b>25+</b><small>yillik tajriba</small></li>
+                <li><b>40+</b><small>maxsus taom</small></li>
+                <li><b>3</b><small>milliy mukofot</small></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="zallar" class="hall r"><img src="img/interior.jpg" alt="Restoran zali">
+        <div class="hall-t">
+            <p class="tag">Bizning zal</p>
+            <h2>Milliy ruh, zamonaviy qulaylik</h2>
+            <p>Naqshinkor ustunlar, atlas gilamlar va jonli musiqa. 120 kishilik asosiy zal, 4 ta alohida xona va yozgi
+                hovli.</p>
+            <a class="btn" href="#aloqa">Joy band qilish</a>
+        </div>
+    </section>
+
+    <section class="why r">
+        <div>
+            <h3>01</h3>
+            <p>Har kuni tandirdan issiq non va somsa</p>
+        </div>
+        <div>
+            <h3>02</h3>
+            <p>Faqat fermer xo'jaliklaridan go'sht</p>
+        </div>
+        <div>
+            <h3>03</h3>
+            <p>Shahar bo'ylab 40 daqiqada yetkazish</p>
+        </div>
+    </section>
+
+    <section id="fikr" class="reviews r">
+        <p class="tag">Mijozlar fikri</p>
+        <h2>Ular nima deydi</h2>
+        <div class="rv">
+            <div><img src="img/shashlik.jpg" alt="">
+                <p>"Shashligi og'izda eriydi. Oilam bilan har yakshanba shu yerdamiz."</p><b>Sardor, Toshkent</b>
+            </div>
+            <div><img src="img/hero.jpg" alt="">
+                <p>"Palovini Samarqanddakiday qilishadi. Mehmonlarni faqat shu yerga olib kelaman."</p><b>Malika,
+                    Farg'ona</b>
+            </div>
+            <div><img src="img/shirinlik.jpg" alt="">
+                <p>"Shirinliklari va choyi alohida gap. Interyer ham juda chiroyli."</p><b>Jasur, Andijon</b>
+            </div>
+        </div>
+    </section>
+
+    <section class="hours r">
+        <div>
+            <p class="tag">Ish vaqti</p>
+            <h2>Har kuni ochiqmiz</h2>
+        </div>
+        <div class="hbox">
+            <div><span>Dushanba — Juma</span><b>10:00 — 23:00</b></div>
+            <div><span>Shanba — Yakshanba</span><b>09:00 — 00:00</b></div>
+            <div><span>Yetkazib berish</span><b>10:00 — 22:30</b></div>
+        </div>
+    </section>
+
+    <section id="aloqa" class="contact r">
+        <p class="tag">Aloqa</p>
+        <h2>Stol bron qiling</h2>
+        <form id="form"><input placeholder="Ismingiz" required><input placeholder="+998 __ ___ __ __" required><input
+                placeholder="Necha kishi?" type="number" min="1" max="30" required><button class="btn">Bron
+                qilish</button></form>
+        <p id="msg"></p>
+        <div class="cinfo">
+            <div><b>Manzil</b>
+                <p>Namangan, Uychi ko'chasi 18</p>
+            </div>
+            <div><b>Telefon</b>
+                <p>+998 50 030 54 50</p>
+            </div>
+            <div><b>Email</b>
+                <p>taom.uz</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="ftop">
+            <div><a class="logo" href="#">TAOM<b>.</b></a>
+                <p>Milliy taomlar restorani. 2024-yildan buyon mehmonlarimizga haqiqiy o'zbek mehmondo'stligini
+                    ulashamiz.</p>
+            </div>
+            <div><b>Bo'limlar</b><a href="#menyu">Menyu</a><a href="#oshpaz">Oshpaz</a><a href="#zallar">Zal</a><a
+                    href="#fikr">Fikrlar</a></div>
+            <div><b>Aloqa</b><a href="#aloqa">+998 50 030 54 50</a><a href="#aloqa">taom.uz</a><a
+                    href="#aloqa">Namangan, Uychi ko'chasi 18</a></div>
+            <div><b>Ish vaqti</b>
+                <p>Du—Ju: 10:00—23:00</p>
+                <p>Sh—Ya: 09:00—00:00</p>
+            </div>
+        </div>
+        <div class="fbot">© 2026 TAOM Restorani · Barcha huquqlar himoyalangan</div>
+    </footer>
+
+    <div id="veil" hidden></div>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <aside id="cart" role="dialog" aria-modal="true" aria-label="Savat" aria-hidden="true">
+        <div class="ch">
+            <h3>Savat</h3><button id="close">Yopish</button>
+        </div>
+        <ul id="items"></ul>
+        <div class="total">Jami: <b id="sum">0 so'm</b></div><button class="btn" id="buy">Buyurtma berish</button>
+    </aside>
+    <script src="app.js"></script>
+</body>
+
+</html>
